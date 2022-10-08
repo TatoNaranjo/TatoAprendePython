@@ -1,4 +1,5 @@
 #Aprendiendo Variables
+from pip._vendor.pyparsing import nums
 
 #Este es un numero Entero
 entero = 5
@@ -18,3 +19,7 @@ print("Este es un Texto con Comillas Simples",textoComillas)
 
 negativo = -54
 print(abs(negativo))
+
+print("Hola Amiguito, Digita tu numero Por Favor :D")
+numeroUsuario = input()
+print("Tu numero es: ",numeroUsuario," verdad?")
