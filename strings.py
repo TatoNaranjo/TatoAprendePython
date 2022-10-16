@@ -81,7 +81,7 @@ print(language.isnumeric())#Nos dice si es un Numero: False
 print("1".isnumeric())#Nos dice si es un Numero: True
 print(language.lower())#Pone el String en Minusculas
 print(language.upper().isupper())#Primero Pasa a mayusculas y luego comprueba si Es mayúscula
-
+print(language.startswith("Py"))#Nos indica si el String comienza o no con las Letras
 
 
 
