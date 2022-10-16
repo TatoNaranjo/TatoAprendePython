@@ -61,7 +61,17 @@ print("aaaa">= "abaa")# Ordenacion Alfabetica por ASCII
 print(len("Hola")>= len("palo")) # Cuenta Caracteres
 print("----------//---------")
 
-## Operadores Logicos ##
+### Operadores Lógicos ###
+print(3>4 and "Hola">"Python") # Y
+print(3>4 or "Hola">"Python") # O
+
+print (3<4 and "Hola"<"Python")#Verdadero & Verdadero
+print(3<4 or "Hola"<"Python")#Verdadero O Verdadero
+
+print(3<4 or ("Hola"<"Python" and 4==4))
+
+print(not(3>4)) # Negación
+
 
 
 
