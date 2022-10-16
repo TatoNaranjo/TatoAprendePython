@@ -1,9 +1,4 @@
-"""
-a = int (input("Ingresa El Numero Uno :D "))
-b = int (input("Ingresa el Numero Dos :D "))
-c = int (a+b)
-print(c)
-"""
+
 #Operaciones con Numeros
 
 #Suma
@@ -20,7 +15,7 @@ print(10%3)
 print(10//3)
 #Potencia
 print(2**3)
-
+print("----------//---------")
 #Operaciones con Strings
 
 print("Hola "+"Python") #Concatenando Strings
@@ -37,4 +32,36 @@ No se puede mezclar un String con un Int
 print("Hola "+str(5)) # Esto si funciona porque pasamos el 5 a string
 
 print("Hola "*5)# Hola se Multiplica 5 veces, es decir se imprime 5 veces
+
+#Convirtiendo Floats a ints para multiplicar Strings
+my_float = 2.5*2
+print("Hola "*int(my_float))
+
+### Operadores Comparativos ###
+print("----------//---------")
+# Comparando Numeros
+print(3>4)
+print(3<4)
+print(3<=4)
+print(3>=4)
+print(3==4)
+print(3!=4)
+
+print("----------//---------")
+#Comparando Strings
+print("Hola">"Python")
+print("Hola"<"Python")
+print("Hola">="Python")
+print("Hola"<="Python")
+print("Hola"=="Python")
+print("Hola"!="Python")
+print("----------//---------")
+
+print("aaaa">= "abaa")# Ordenacion Alfabetica por ASCII
+print(len("Hola")>= len("palo")) # Cuenta Caracteres
+print("----------//---------")
+
+## Operadores Logicos ##
+
+
 
