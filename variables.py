@@ -40,3 +40,8 @@ print("Hey,Soy:",nombre,apellido,"Tengo:",edad,"Años y Mi Sexo Es:",sexo)
 #Como solicitar datos por Consola
 nombreUsuario = input("Hola Amigo, ¿Como te llamas? ")
 edadUsuario = input("¿Qué Edad Tienes? ")
+
+#¿Como imprimir el tipo de dato de una variable?
+u = 5
+
+print(type(u))
