@@ -3,7 +3,7 @@ import pywhatkit
 # Usamos Un try-except
 try:
   # Enviamos el mensaje
-  pywhatkit.sendwhatmsg("+573212861162",  
+  pywhatkit.sendwhatmsg("+57**********",
                         "Hola Daniel, este es un mensaje mandado por un Bot de Python",
                         7,18)
   print("Mensaje Enviado")
