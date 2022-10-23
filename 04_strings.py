@@ -82,8 +82,13 @@ print("1".isnumeric())#Nos dice si es un Numero: True
 print(language.lower())#Pone el String en Minusculas
 print(language.upper().isupper())#Primero Pasa a mayusculas y luego comprueba si Es mayúscula
 print(language.startswith("Py"))#Nos indica si el String comienza o no con las Letras
+print("----------//----------")
+#Ordenar un String en orden alfabético
 
-
+word = "patata"
+print("Palabra Sin ordenar:",word)
+organized_word = ''.join(sorted(word))
+print("palabra Organizada:",organized_word)
 
 
 
