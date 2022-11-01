@@ -8,7 +8,7 @@ while contador<=100:
             divisible+=1
         x += 1
     if divisible==2:
-        print(contador," es un Numero Primo")
+        print(contador,"es un Numero Primo")
     else:
         print(contador,"No Es un Numero Primo")
 
