@@ -1,0 +1,5 @@
+texto = input("Ingresa La Cadena de texto Que quieres Invertir ")
+lista = list(texto)
+lista.reverse()
+textoInvertido = "".join(lista)
+print("Tu Texto Invertido es:",textoInvertido)
