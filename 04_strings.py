@@ -1,6 +1,7 @@
 ### Strings ###
 
 myString = "Mi String"
+
 myOtherString = 'Mi otro String'
 print("-----//-----")
 #Determinando Longitudes de Strings
@@ -82,6 +83,7 @@ print("1".isnumeric())#Nos dice si es un Numero: True
 print(language.lower())#Pone el String en Minusculas
 print(language.upper().isupper())#Primero Pasa a mayusculas y luego comprueba si Es mayúscula
 print(language.startswith("Py"))#Nos indica si el String comienza o no con las Letras
+print(language.swapcase()) #Convierte las Mayúsculas en Minusculas y viceversa.
 print("----------//----------")
 #Ordenar un String en orden alfabético
 
