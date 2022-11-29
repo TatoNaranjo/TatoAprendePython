@@ -1,7 +1,6 @@
 ### Strings ###
 
 myString = "Mi String"
-
 myOtherString = 'Mi otro String'
 print("-----//-----")
 #Determinando Longitudes de Strings
